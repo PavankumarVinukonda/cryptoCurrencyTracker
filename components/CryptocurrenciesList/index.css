@@ -1,0 +1,71 @@
+/* Write your CSS code here */
+/* Write your CSS here */
+.CryptoCurrencyTracker {
+  display: flex;
+  flex-direction: column;
+}
+
+.tracker {
+  color: #00e7ff;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cryptocurrency {
+  height: 300px;
+  width: 80vw;
+  align-self: center;
+}
+
+.currencyList {
+  border: #00e7ff solid 5px;
+  border-radius: 4px;
+  width: 80vw;
+  align-self: center;
+  list-style: none;
+  padding: 0px;
+}
+
+.headings {
+  height: 40px;
+  background-color: #092e33;
+  background-size: cover;
+
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Cointype {
+  font-family: roboto;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.currencyContainer {
+  display: flex;
+  align-items: center;
+}
+.Usd {
+  font-family: roboto;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-right: 40px;
+}
+
+.euro {
+  font-family: roboto;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.Loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

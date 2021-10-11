@@ -1,0 +1,45 @@
+/* Write your CSS code here */
+.currencyItem {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.currencyLogo {
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+}
+
+.currencyName {
+  font-family: roboto;
+  font-size: 25px;
+  font-weight: solid;
+  color: white;
+}
+
+.Usd {
+  font-family: roboto;
+  font-size: 20px;
+
+  font-weight: bold;
+  margin-right: 40px;
+}
+
+.euro {
+  font-family: roboto;
+  font-size: 20px;
+
+  font-weight: bold;
+}
+
+.logoCont {
+  display: flex;
+  align-items: center;
+}
+
+.valueContainer {
+  display: flex;
+  align-items: center;
+}
